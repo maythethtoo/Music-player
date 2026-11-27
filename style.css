@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+iframe{
+    margin:0 auto;
+    display:block;
+    align-items: center;
+    margin-top: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.play{
+    background-color: rgb(187, 231, 236);
+    margin: 10px 0px;
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+}
+.play button{
+    background-color: rgb(194, 141, 244);
+    color: rgb(5, 108, 244);
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+transition: 0.5s;
+}
+.play button:hover{
+    background-color: rgb(12, 81, 154);
+    color:rgb(106, 3, 39);
+    transform: scale(1.08);
+    filter: brightness(1.5);
+}
